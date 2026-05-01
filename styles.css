@@ -1,0 +1,189 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+/* ===== BODY ===== */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #d4e4ff, #f9f9ff);
+  color: #333;
+}
+
+/* ===== Header ===== */
+
+header {
+    text-align: center;
+	padding: 20px;
+    color: #234b95;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-top: 1.25em;
+    font-family: Garamond, Times, serif;
+}
+
+#format h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-top: 20px;
+}
+
+header h3 {
+    font-style: italic;
+    font-size: 1.25em;
+    font-family: Futura, Arial, sans-serif;
+}
+
+/* ===== NAV ===== */
+nav {
+  background: radial-gradient(circle, #ba80c6, #003366);
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background: white;
+  color: #003366;
+}
+
+/* ===== HERO ===== */
+#hero img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* ===== Main Content ===== */
+main {
+  background: white;
+  width: 85%;
+  margin: 20px auto;
+  margin-top: 100px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+/* ===== TWO COLUM ===== */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px;
+  border: 1px solid rgba(0, 51, 102, 0.1); /* very light border */
+  background: #f9fbff;
+  border-radius: 10px;
+}
+
+.column p {
+	margin-bottom: 20px;
+	line-height: 1.6;
+}
+
+.column img, 
+#format img{
+	width: 100%;
+	max-width: 350px;
+	height: auto;
+	display: block;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+
+/* ===== ALTERNATE LIGHT BACKGROUBND COLOR FOR COLUMS ===== */
+.column:nth-child(1) {
+  background-color: #f9fbff; /* very light blue */
+}
+
+.column:nth-child(2) {
+  background-color: #ffffff; /* white for contrast */
+}
+
+
+/* ===== PARAGRAPHS ===== */
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* ===== CARD GRID ===== */
+.card {
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,td {
+    border: 1px solid #234b95;
+	padding: 20px;
+    text-align: center;
+}
+
+th {
+  background-color: #234b95;
+  color: white;
+}
+
+/* ===== FORM ===== */
+form {
+   max-width: 400px;
+   margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: radial-gradient(circle, #ba80c6, #003366);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
