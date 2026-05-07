@@ -177,8 +177,16 @@ input, textarea {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
-}
+} 
 
+/* ===== Submit Button ===== */
+.submit-btn {
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
 /* ===== Footer ===== */
 footer {
   background: radial-gradient(circle, #ba80c6, #003366);
